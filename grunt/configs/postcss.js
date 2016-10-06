@@ -19,6 +19,6 @@ module.exports = {
     map: true
   },
   dist: {
-    src: '<%= yeoman.app %>/styles/inv-all.css'
+    src: '<%= yeoman.app %>/styles/admin-all.css'
   }
 };

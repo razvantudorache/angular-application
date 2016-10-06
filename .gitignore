@@ -29,6 +29,7 @@ build/Release
 # Dependency directories
 jspm_packages
 .idea
+.sass-cache
 
 # Optional npm cache directory
 .npm

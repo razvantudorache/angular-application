@@ -7,12 +7,10 @@ module.exports = {
   scss: {
     src: ['<%= yeoman.app %>/styles/scss/general.scss',
       '<%= yeoman.app %>/scripts/**/*.scss',
-      '<%= yeoman.app %>/styles/scss/invoicing.scss', //FIXME remove
-      '<%= yeoman.app %>/styles/scss/main.scss', //FIXME remove
       '!<%= yeoman.app %>/styles/scss/_*.scss', //FIXME remove
-      '!<%= yeoman.app %>/styles/scss/inv-all.scss' //FIXME remove
+      '!<%= yeoman.app %>/styles/scss/admin-all.scss' //FIXME remove
     ],
-    dest: '<%= yeoman.app %>/styles/scss/inv-all.scss'
+    dest: '<%= yeoman.app %>/styles/scss/admin-all.scss'
   },
   options: {
     process: function (src, filepath) {

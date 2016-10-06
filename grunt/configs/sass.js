@@ -6,7 +6,7 @@
 module.exports = {
   dist: {
     files: {
-      '<%= yeoman.app %>/styles/inv-all.css': '<%= yeoman.app %>/styles/scss/inv-all.scss'
+      '<%= yeoman.app %>/styles/admin-all.css': '<%= yeoman.app %>/styles/scss/admin-all.scss'
     }
   }
 };

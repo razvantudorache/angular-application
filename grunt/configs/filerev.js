@@ -20,7 +20,7 @@ module.exports = {
 
         var formattedDate = momentJs(date).format('YYYYMMDDHHmm');
 
-        return (basename + '.' + formattedDate +'.' + extension)
+        return basename + '.' + formattedDate +'.' + extension;
       }
     }
   }
