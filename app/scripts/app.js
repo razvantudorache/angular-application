@@ -2,30 +2,21 @@
 
 /**
  * @ngdoc overview
- * @name adminstrationApp
+ * @name administrationApp
  * @description
- * # adminstrationApp
+ * # administrationApp
  *
  * Main module of the application.
  */
-angular
-  .module('adminstrationApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngMessages',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+( function() {
+  angular
+    .module('administrationApp', [
+      'ngAnimate',
+      'ngCookies',
+      'ngMessages',
+      'ngResource',
+      'ngSanitize',
+      'ngTouch',
+      'ui.router'
+    ]);
+})();
