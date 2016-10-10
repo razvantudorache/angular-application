@@ -1,0 +1,20 @@
+.leftMenuContainer {
+  height: 100%;
+  width: 240px;
+//  background-color: #2299dd;
+//  padding-right: 20px;
+//  .userDetails {
+//    float: right;
+//    line-height: 60px;
+//    margin-right: 5px;
+//  }
+
+  .userPicture {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+  }
+}
